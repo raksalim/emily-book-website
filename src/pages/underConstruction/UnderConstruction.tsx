@@ -33,7 +33,7 @@ export function UnderConstructionPage() {
             </style>
             <div style={{
                 position: 'relative',
-                height: '100vh',
+                height: '98vh',
                 width: '100%',
                 overflow: 'hidden',
             }}>
@@ -100,7 +100,7 @@ export function UnderConstructionPage() {
                         backgroundPosition: 'center 90%', // 75% from the top
                         backgroundSize: 'cover', // or 'contain', 'auto' etc.
                         backgroundRepeat: 'no-repeat', // Optional
-                        height: '100vh', // Adjust as needed
+                        height: '98vh', // Adjust as needed
                         width: '100%',
                     }}
                 />
