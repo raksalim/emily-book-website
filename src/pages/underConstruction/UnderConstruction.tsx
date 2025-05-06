@@ -1,4 +1,3 @@
-import React from "react";
 import backgroundImage from '../../assets/EmilyWithBellaWebsite.jpg';
 import headshot from '../../assets/headshot.jpg';
 
