@@ -1,5 +1,5 @@
 import backgroundImage from '../../assets/bella-on-chair.jpg';
-import headshot from '../../assets/headshot-1.jpg';
+import headshot from '../../assets/headshot-1.JPG';
 import './UnderConstruction.css'
 
 export function UnderConstructionPage() {
