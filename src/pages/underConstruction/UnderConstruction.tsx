@@ -29,7 +29,7 @@ export function UnderConstructionPage() {
                             padding: 0vh 20px !important;
                         }
                         .mobile-headshot {
-                            width: 35% !important;
+                            width: 45% !important;
                             border: 3px solid white !important;
                         }
                     }
