@@ -28,6 +28,10 @@ export function UnderConstructionPage() {
                             font-size: .65rem !important;
                             padding: 0vh 20px !important;
                         }
+                        .mobile-headshot {
+                            width: 35% !important;
+                            border: 3px solid white !important;
+                        }
                     }
                      
                 `}
@@ -67,9 +71,9 @@ export function UnderConstructionPage() {
                         <img
                             src={headshot} // Replace with the actual headshot image path
                             alt="Headshot"
+                            className='mobile-headshot'
                             style={{
-                                width: '150px',
-                                height: '150px',
+                                width: '30%',
                                 borderRadius: '50%',
                                 border: '5px solid white',
                                 objectFit: 'cover',
