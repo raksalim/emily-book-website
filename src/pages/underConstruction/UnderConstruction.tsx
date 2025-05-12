@@ -1,6 +1,5 @@
 import backgroundImage from '/public/assets/bella-on-chair.jpg';
 import headshot from '/public/assets/headshot-1.jpg';
-import './UnderConstruction.css'
 
 export function UnderConstructionPage() {
 
@@ -26,7 +25,7 @@ export function UnderConstructionPage() {
                     }         
                     @media (max-width: 768px) {
                         .mobile-font {
-                            font-size: 12px !important;
+                            font-size: .65rem !important;
                             padding: 10vh 20px !important;
                         }
                     }
@@ -44,7 +43,7 @@ export function UnderConstructionPage() {
                         position: 'absolute',
                         top: 0,
                         left: 0,
-                        height: '85%',
+                        height: '90%',
                         width: '100%',
                         backgroundColor: 'rgba(0, 0, 0, 0.5)',
                         boxShadow: '0px 10px 10px rgba(0, 0, 0, .5)',
@@ -56,7 +55,7 @@ export function UnderConstructionPage() {
                     <div
                         className='mobile-font'
                         style={{
-                            fontSize: '1.2rem',
+                            fontSize: '1rem',
                             lineHeight: '1.5',
                             color: 'white',
                             maxWidth: '600px',
