@@ -26,7 +26,11 @@ export function UnderConstructionPage() {
                     @media (max-width: 768px) {
                         .mobile-font {
                             font-size: .65rem !important;
-                            padding: 10vh 20px !important;
+                            padding: 0vh 20px !important;
+                        }
+                        .mobile-headshot {
+                            width: 35% !important;
+                            border: 3px solid white !important;
                         }
                     }
                      
@@ -50,6 +54,7 @@ export function UnderConstructionPage() {
                         animation: 'slideDown 2s ease-in-out',
                         display: 'flex',
                         justifyContent: 'center',
+                        alignItems: 'center',
                     }}
                 >
                     <div
@@ -60,15 +65,15 @@ export function UnderConstructionPage() {
                             color: 'white',
                             maxWidth: '600px',
                             textAlign: 'center',
-                            padding: '5vh 20px',
+                            padding: '0vh 20px',
                         }}
                     >
                         <img
                             src={headshot} // Replace with the actual headshot image path
                             alt="Headshot"
+                            className='mobile-headshot'
                             style={{
-                                width: '150px',
-                                height: '150px',
+                                width: '30%',
                                 borderRadius: '50%',
                                 border: '5px solid white',
                                 objectFit: 'cover',
