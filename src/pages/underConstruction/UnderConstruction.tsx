@@ -1,5 +1,5 @@
 import backgroundImage from '../../assets/bella-on-chair.jpg';
-import headshot from '../../assets/headshot-1.JPG';
+import headshot from '../../assets/headshot-1.jpg';
 import './UnderConstruction.css'
 
 export function UnderConstructionPage() {
@@ -71,10 +71,12 @@ export function UnderConstructionPage() {
                         <img
                             src={headshot} // Replace with the actual headshot image path
                             alt="Headshot"
+
                             style={{
                                 width: '100%',
                                 height: '100%',
                                 objectFit: 'cover',
+                                objectPosition: '50% 20%',
                             }}
                         />
                     </div>
